@@ -1,8 +1,9 @@
 package projekt.ucty;
 
-public class SporiciUcet extends BankovniUcet{
+public class BeznyUcet extends BankovniUcet{
 
-    public SporiciUcet(String cisloUctu, int kodBanky, double zustatek, Zakaznik zakaznik) {
+    //Konstruktor
+    public BeznyUcet(String cisloUctu, int kodBanky, double zustatek, Zakaznik zakaznik) {
         super(cisloUctu, kodBanky, zustatek, zakaznik);
     }
 
